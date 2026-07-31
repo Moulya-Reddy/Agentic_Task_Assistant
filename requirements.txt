@@ -1,0 +1,9 @@
+openai>=1.50.0
+streamlit>=1.38.0
+ddgs>=1.0.0
+wikipedia>=1.4.0
+
+# Optional: only needed if you switch the provider to "anthropic" in the
+# sidebar / Agent(provider="anthropic"). Not required for the default
+# Groq (free) setup.
+anthropic>=0.40.0
