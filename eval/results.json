@@ -1,0 +1,87 @@
+[
+  {
+    "id": "calc_01",
+    "task": "What is 15% of the sum of 340 and 860?",
+    "expected_tool": "calculator",
+    "tools_used": [
+      "calculator",
+      "calculator",
+      "calculator"
+    ],
+    "answer": "180",
+    "steps": 4,
+    "input_tokens": 2051,
+    "output_tokens": 301,
+    "latency_seconds": 2.05,
+    "hit_step_limit": false
+  },
+  {
+    "id": "calc_02",
+    "task": "If a train travels at 72 km/h for 2.5 hours, how far does it go in km?",
+    "expected_tool": "calculator",
+    "tools_used": [
+      "calculator"
+    ],
+    "answer": "180.0 km",
+    "steps": 2,
+    "input_tokens": 820,
+    "output_tokens": 125,
+    "latency_seconds": 0.83,
+    "hit_step_limit": false
+  },
+  {
+    "id": "wiki_01",
+    "task": "In which year was the Indian Institute of Technology (IIT) system established, based on the founding of the first IIT?",
+    "expected_tool": "wikipedia_lookup",
+    "tools_used": [
+      "wikipedia_lookup"
+    ],
+    "answer": "1950",
+    "steps": 2,
+    "input_tokens": 922,
+    "output_tokens": 141,
+    "latency_seconds": 7.42,
+    "hit_step_limit": false
+  },
+  {
+    "id": "search_01",
+    "task": "What is the current version of the Python programming language?",
+    "expected_tool": "web_search",
+    "tools_used": [
+      "web_search"
+    ],
+    "answer": "The current version of the Python programming language is 3.14.6.",
+    "steps": 2,
+    "input_tokens": 1126,
+    "output_tokens": 157,
+    "latency_seconds": 4.55,
+    "hit_step_limit": false
+  },
+  {
+    "id": "reasoning_01",
+    "task": "Without using any tool, explain briefly why the sky appears blue.",
+    "expected_tool": null,
+    "tools_used": [],
+    "answer": "The sky appears blue because of Rayleigh scattering, which scatters shorter wavelengths of light more than longer ones.",
+    "steps": 1,
+    "input_tokens": 357,
+    "output_tokens": 87,
+    "latency_seconds": 0.52,
+    "hit_step_limit": false
+  },
+  {
+    "id": "multi_step_01",
+    "task": "Look up the year the Eiffel Tower was completed, then calculate how many years old it will be in 2030.",
+    "expected_tool": "wikipedia_lookup,calculator",
+    "tools_used": [
+      "wikipedia_lookup",
+      "calculator"
+    ],
+    "answer": "The Eiffel Tower will be 141 years old in 2030.",
+    "steps": 3,
+    "input_tokens": 1675,
+    "output_tokens": 212,
+    "latency_seconds": 7.36,
+    "hit_step_limit": false
+  }
+]

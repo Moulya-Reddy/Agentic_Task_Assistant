@@ -1,0 +1,38 @@
+[
+  {
+    "id": "calc_01",
+    "task": "What is 15% of the sum of 340 and 860?",
+    "expects_tool": "calculator",
+    "success_criteria": "Answer should equal 180 (15% of 1200)."
+  },
+  {
+    "id": "calc_02",
+    "task": "If a train travels at 72 km/h for 2.5 hours, how far does it go in km?",
+    "expects_tool": "calculator",
+    "success_criteria": "Answer should equal 180 km."
+  },
+  {
+    "id": "wiki_01",
+    "task": "In which year was the Indian Institute of Technology (IIT) system established, based on the founding of the first IIT?",
+    "expects_tool": "wikipedia_lookup",
+    "success_criteria": "Answer should reference 1951 (IIT Kharagpur)."
+  },
+  {
+    "id": "search_01",
+    "task": "What is the current version of the Python programming language?",
+    "expects_tool": "web_search",
+    "success_criteria": "Answer should reflect a recent Python 3.x release, not stale training-era info."
+  },
+  {
+    "id": "reasoning_01",
+    "task": "Without using any tool, explain briefly why the sky appears blue.",
+    "expects_tool": null,
+    "success_criteria": "Answer should be correct and NOT invoke a tool (tests the agent knows when tools aren't needed)."
+  },
+  {
+    "id": "multi_step_01",
+    "task": "Look up the year the Eiffel Tower was completed, then calculate how many years old it will be in 2030.",
+    "expects_tool": "wikipedia_lookup,calculator",
+    "success_criteria": "Answer should use 1889 and compute 141 years, using two tool calls in sequence."
+  }
+]
