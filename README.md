@@ -87,7 +87,6 @@ agentic-task-assistant/
 │   └── results.json
 │
 └── docs/
-    ├── architecture.png
     ├── demo.gif
     └── evaluation.png
 ```
