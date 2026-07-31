@@ -77,7 +77,7 @@ agentic-task-assistant/
 ├── agent/
 │   ├── core.py
 │   ├── prompts.py
-│   ├── tools.py
+│   └── tools.py
 │
 ├── eval/
 │   ├── run_eval.py
