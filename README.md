@@ -25,7 +25,7 @@ This project demonstrates the core concepts behind modern **LLM-powered AI agent
 
 The **`docs/`** folder contains supplementary materials for this project, including:
 
-- `demo.gif` – Demonstration of the Agentic Task Assistant in action.
+- `demo.mov` – Demonstration of the Agentic Task Assistant in action.
 - `evaluation.png` – Evaluation results and reasoning trace.
 
 These files can be viewed directly from the repository after cloning or browsing the `docs/` directory.
@@ -85,7 +85,7 @@ agentic-task-assistant/
 │   └── results.json
 │
 └── docs/
-    ├── demo.gif
+    ├── demo.mov
     └── evaluation.png
 ```
 
