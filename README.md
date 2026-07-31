@@ -23,13 +23,12 @@ This project demonstrates the core concepts behind modern **LLM-powered AI agent
 
 ## 📸 Demo
 
-### Live Reasoning Trace
+The **`docs/`** folder contains supplementary materials for this project, including:
 
-![Demo](docs/demo.gif)
+- `demo.gif` – Demonstration of the Agentic Task Assistant in action.
+- `evaluation.png` – Evaluation results and reasoning trace.
 
-### Evaluation Results
-
-![Evaluation](docs/evaluation.png)
+These files can be viewed directly from the repository after cloning or browsing the `docs/` directory.
 
 ---
 
